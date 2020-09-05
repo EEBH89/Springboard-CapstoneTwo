@@ -1,0 +1,48 @@
+Model,MSE,MAE,R2,Hyperparameters
+Initial Linear Regression,2666467707,24587.3147,0.043978494,None
+Linear Regression_New Features,2653275538,24575.96857,0.048708346,None
+Ridge Regression_alpha 0.1,2653272120,24575.9482,0.048709571,"Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+      normalize=False, random_state=None, solver='auto', tol=0.001)"
+Ridge Regression_alpha 1.0,2653246535,24575.80169,0.048718745,"Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+      normalize=False, random_state=None, solver='auto', tol=0.001)"
+Ridge Regression_alpha 10.0,2652938807,24575.02354,0.048829076,"Ridge(alpha=10.0, copy_X=True, fit_intercept=True, max_iter=None,
+      normalize=False, random_state=None, solver='auto', tol=0.001)"
+Decision Tree_no max depth,2594953146,20628.90522,0.069618954,"DecisionTreeRegressor(criterion='mse', max_depth=None, max_features=None,
+                      max_leaf_nodes=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      presort=False, random_state=None, splitter='best')"
+Decision Tree_max depth 20,1967158766,17738.13657,0.294705096,"DecisionTreeRegressor(criterion='mse', max_depth=20, max_features=None,
+                      max_leaf_nodes=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      presort=False, random_state=None, splitter='best')"
+Decision Tree_max depth 5,2289239705,22923.25201,0.179227866,"DecisionTreeRegressor(criterion='mse', max_depth=5, max_features=None,
+                      max_leaf_nodes=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      presort=False, random_state=None, splitter='best')"
+Random Forest_estimators 10,1609598741,17103.13311,0.422902814,"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=20,
+                      max_features='auto', max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, n_estimators=10,
+                      n_jobs=None, oob_score=False, random_state=None,
+                      verbose=0, warm_start=False)"
+Random Forest_estimators 50,1516830496,16968.58452,0.456163459,"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=20,
+                      max_features='auto', max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, n_estimators=50,
+                      n_jobs=None, oob_score=False, random_state=None,
+                      verbose=0, warm_start=False)"
+Random Forest_estimators 100,1531930511,16966.83071,0.450749578,"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=20,
+                      max_features='auto', max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, n_estimators=100,
+                      n_jobs=None, oob_score=False, random_state=None,
+                      verbose=0, warm_start=False)"
+,,,,
+,39139.88389,,,
+,51637.85149,,,
